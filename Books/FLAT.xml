@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<books>
+    <book name="book-1-name">
+        <section type="chapter" id="1" name="chapter-1-name"></section>
+        <section type="section" id="2" parentId="1" name="section-1-name"></section>
+        <section type="text" parentId="2">Book 1 -- Chapter 1 -- Section 1</section>
+        <section type="section" id="3" parentId="1" name="section-2-name"></section>
+        <section type="text" parentId="3">Book 1 -- Chapter 1 -- Section 2</section>
+        <section type="section" id="4" parentId="1" name="section-3-name"></section>
+        <section type="text" parentId="4">Book 1 -- Chapter 1 -- Section 3</section>
+        <section type="chapter" id="5" name="chapter-2-name"></section>
+        <section type="section" id="6" parentId="5" name="section-1-name"></section>
+        <section type="text" parentId="6">Book 1 -- Chapter 2 -- Section 1</section>
+        <section type="section" id="7" parentId="5" name="section-2-name"></section>
+        <section type="text" parentId="7">Book 1 -- Chapter 2 -- Section 2</section>
+    </book>
+    <book name="book-2-name">
+        <section type="chapter" id="8" name="chapter-1-name"></section>
+        <section type="section" id="9" parentId="8" name="section-1-name"></section>
+        <section type="text" parentId="9">Book 2 -- Chapter 1 -- Section 1</section>
+        <section type="section" id="10" parentId="8" name="section-2-name"></section>
+        <section type="text" parentId="10">Book 2 -- Chapter 1 -- Section 2</section>
+        <section type="chapter" id="11" name="chapter-2-name"></section>
+        <section type="section" id="12" parentId="11" name="section-1-name"></section>
+        <section type="text" parentId="12">Book 2 -- Chapter 2 -- Section 1</section>
+        <section type="section" id="13" parentId="11" name="section-2-name"></section>
+        <section type="text" parentId="13">Book 2 -- Chapter 2 -- Section 2</section>
+        <section type="section" id="14" parentId="11" name="section-3-name"></section>
+        <section type="text" parentId="14">Book 2 -- Chapter 2 -- Section 3</section>
+    </book>
+</books>
