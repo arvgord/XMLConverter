@@ -27,11 +27,8 @@ public class XMLConverter {
     
     public static void main(String[] args) {
         
-            
-        String[] str = new String[] {"-i", "books/ELEMENTS_BASED.xml", "-o", "output.xml", "-p", "ELEMENTS_BASED", "-w", "ATTRIBUTE_BASED"};
-            
         ParametersParser paramsParser = new ParametersParser();
-        Parameters params = paramsParser.parseArgs(str);
+        Parameters params = paramsParser.parseArgs(args);
             
         try {    
             Parser parser = ParserFactory.create(params.getParser());
